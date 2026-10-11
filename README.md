@@ -41,7 +41,8 @@
 <div align="center">
   <br/>
   <img src="https://github.com/user-attachments/assets/8b44c4f2-9aac-469c-87c8-b22021faf5f8" width="95%" alt="Real-Time CCTV Edge Vision Analytics & YOLO Passenger Footfall Detection" />
-  <p><em>🎥 <b>Real-Time CCTV Edge Vision Analytics</b> — Live passenger crowd detection, queue surge estimation, and bus stop footfall telemetry fused with smart card ETM scans for dynamic demand dispatch.</em></p>
+  <p><em>🎥 <b>Real-Time CCTV Edge Vision Analytics & Ground Field Work Dataset</b> — Live passenger crowd detection, queue surge estimation, and bus stop footfall telemetry fused with smart card ETM scans for dynamic demand dispatch.<br/>
+  📍 <b>Authentic Field Work:</b> 100% of these CCTV clips and passenger video datasets were recorded on-ground across Bengaluru bus stops (e.g., Silk Board, Majestic, Shanthinagar) through dedicated field work by the team specifically for this project.</em></p>
   <br/>
 </div>
 
@@ -576,11 +577,13 @@ CLOUDWATCH_NAMESPACE=SancharaVyuha/PublicTransport
 
 ### CCTV Vision Passenger Counter
 - **Model**: YOLOv8 lightweight object detection.
-- **Input**: Bus stop video feeds.
+- **Input**: Bus stop video feeds collected via dedicated on-ground field work across Bengaluru transit stops.
+- **Field Data Collection**: 100% of the training and evaluation video clips across all bus stops were captured firsthand on-site by the team specifically for this project.
 - **Fallback**: Automatically falls back to ETM smart card tap-in logs when lens blur is detected.
 
 #### 📹 CCTV Vision & Footfall Detection Dataset
 ![CCTV Dataset & YOLO Footfall Detection](https://github.com/user-attachments/assets/8b44c4f2-9aac-469c-87c8-b22021faf5f8)
+*On-ground field work recordings from BMTC bus stands in Bengaluru used for training and evaluating real-time passenger crowd queue surge detection.*
 
 ### Explainable AI (SHAP Module)
 - **Library**: TreeSHAP fast explicit calculation.
