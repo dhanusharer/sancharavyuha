@@ -23,15 +23,20 @@
 
 *A centralized AI decision intelligence platform transforming real-time multi-stream urban transit telemetry into automated, policy-bounded vehicle allocation recommendations with sub-15ms latency, physical CPCB/CEA carbon accounting, and native Amazon S3 & CloudWatch integration.*
 
-[![Prototype Video](https://img.shields.io/badge/🎥_Prototype_Video-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://drive.google.com/file/d/1wVurv5vIFYXE9U6Vm4bEN2WJR5saUqCR/view?usp=sharing)
-[![Presentation PPT](https://img.shields.io/badge/📊_Presentation_PPT-Pitch_Deck-D24726?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://drive.google.com/file/d/1oyCfSd-46TPg21pbHlAizRraga3LzvgQ/view?usp=sharing)
-[![Brief Explanation](https://img.shields.io/badge/📄_Brief_Explanation-Read_Doc-0078D4?style=for-the-badge&logo=googledocs&logoColor=white)](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=sharing)
-[![Project Drive](https://img.shields.io/badge/📁_Project_Drive-All_Documents-34A853?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw)
-[![IEEE Review](https://img.shields.io/badge/📜_IEEE_Review-25_Paper_Survey-4285F4?style=for-the-badge)](docs/literature_review_ieee.md)
-[![Environmental Impact](https://img.shields.io/badge/🌱_Environmental_Impact-Carbon_Math-2E7D32?style=for-the-badge)](docs/ENVIRONMENTAL_IMPACT.md)
-[![AWS Architecture](https://img.shields.io/badge/☁️_AWS_Deployment-Architecture_Spec-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](docs/AWS_DEPLOYMENT.md)
+[![🌟 AI Idea Video](https://img.shields.io/badge/🌟_AI_Idea_Video-MUST_WATCH-E91E63?style=for-the-badge&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link)
+[![🎥 Prototype Walkthrough](https://img.shields.io/badge/🎥_Prototype_Walkthrough-YouTube_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WE_v0WWnrbw?si=Vru7B1JqohN3RR_8)
+[![📊 Presentation PPT](https://img.shields.io/badge/📊_Presentation_PPT-Pitch_Deck-D24726?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://drive.google.com/file/d/1B5uk_gHGnL9AhauX4m3sGhapFinYeZjr/view?usp=drive_link)
+[![📄 Report PDF](https://img.shields.io/badge/📄_Report_PDF-Technical_Dossier-0078D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1j_HOolP42qlp1VSGBdOxcd8Q6JdS6hKd/view?usp=drive_link)
+[![📁 Complete Project Drive](https://img.shields.io/badge/📁_Project_Drive-All_Documents-34A853?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw?usp=sharing)
+[![📜 IEEE Review](https://img.shields.io/badge/📜_IEEE_Review-25_Paper_Survey-4285F4?style=for-the-badge)](docs/literature_review_ieee.md)
+[![🌱 Environmental Impact](https://img.shields.io/badge/🌱_Environmental_Impact-Carbon_Math-2E7D32?style=for-the-badge)](docs/ENVIRONMENTAL_IMPACT.md)
+[![☁️ AWS Architecture](https://img.shields.io/badge/☁️_AWS_Deployment-Architecture_Spec-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)](docs/AWS_DEPLOYMENT.md)
 
 </div>
+
+> ### 🌟 **[CORE HIGHLIGHT] AI Idea Explanation Video**
+> 🎬 **[▶️ Click to Watch the AI Idea Explanation Video](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link)** *(Highest Priority Deliverable)*  
+> *A dedicated AI-generated concept animation explaining how Sanchara Vyuha ingests 10 real-time telemetry streams, applies Google OR-Tools MILP optimization to eliminate 14.8% deadhead empty mileage, and automates verifiable CPCB/CEA carbon accounting on AWS.*
 
 ---
 
@@ -74,10 +79,11 @@ The engine executes LightGBM quantile demand forecasting ($P10/P50/P90$), applie
 
 | Deliverable Resource | Format / Type | Description & Access Link |
 | :--- | :--- | :--- |
-| 🎥 **Prototype Video** | Video Demonstration | [▶️ Watch Prototype Video](https://drive.google.com/file/d/1wVurv5vIFYXE9U6Vm4bEN2WJR5saUqCR/view?usp=sharing) |
-| 📊 **Presentation Deck (PPT)** | Pitch Slide Deck | [📈 View Presentation PPT](https://drive.google.com/file/d/1oyCfSd-46TPg21pbHlAizRraga3LzvgQ/view?usp=sharing) |
-| 📄 **Brief System Explanation** | Technical Summary | [📑 Read Brief Explanation Document](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=sharing) |
-| 📁 **Complete Project Folder** | Google Drive | [📂 Access All Project Documents](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw) |
+| 🌟 **AI Idea Explanation Video (Core Highlight)** | AI Video Concept | [🎬 **Watch AI Idea Video**](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link) *(Must Watch)* |
+| 🎥 **Prototype Explanation & Demo** | YouTube Demonstration | [▶️ **Watch Prototype Walkthrough**](https://youtu.be/WE_v0WWnrbw?si=Vru7B1JqohN3RR_8) |
+| 📊 **Presentation Deck (PPT)** | Official Pitch Deck | [📈 **View Presentation PPT**](https://drive.google.com/file/d/1B5uk_gHGnL9AhauX4m3sGhapFinYeZjr/view?usp=drive_link) |
+| 📄 **Project Report (PDF)** | Official Technical Report | [📑 **Read Report PDF**](https://drive.google.com/file/d/1j_HOolP42qlp1VSGBdOxcd8Q6JdS6hKd/view?usp=drive_link) |
+| 📁 **Complete Project Documents Folder** | Google Drive | [📂 **Access All Project Documents**](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw?usp=sharing) |
 | 📜 **IEEE Literature Review** | Research Survey | [🔬 25-Paper Systematic Literature Survey](docs/literature_review_ieee.md) |
 | 🌱 **Environmental Impact Spec** | Math & Compliance | [🌿 CPCB & CEA Carbon Accounting Specification](docs/ENVIRONMENTAL_IMPACT.md) |
 | ☁️ **AWS Deployment Spec** | Cloud Architecture | [🏛️ Amazon S3 & CloudWatch Architecture Guide](docs/AWS_DEPLOYMENT.md) |
