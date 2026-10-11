@@ -7,7 +7,7 @@
 **Subtrack: Public Transport & Green Transit Operations**
 
 **AMC ENGINEERING COLLEGE**  
-**TEAM NAME: CORTEX**
+**TEAM NAME: Trust Builders**
 
 [![Python Version](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -23,8 +23,8 @@
 
 *A centralized AI decision intelligence platform transforming real-time multi-stream urban transit telemetry into automated, policy-bounded vehicle allocation recommendations with sub-15ms latency, physical CPCB/CEA carbon accounting, and native Amazon S3 & CloudWatch integration.*
 
-[![🌟 AI Idea Video](https://img.shields.io/badge/🌟_AI_Idea_Video-MUST_WATCH-E91E63?style=for-the-badge&logo=googlechrome&logoColor=white)](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link)
-[![🎥 Prototype Walkthrough](https://img.shields.io/badge/🎥_Prototype_Walkthrough-YouTube_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WE_v0WWnrbw?si=Vru7B1JqohN3RR_8)
+[![🌟 AI Idea Video](https://img.shields.io/badge/🌟_AI_Idea_Video-MUST_WATCH-E91E63?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/WE_v0WWnrbw)
+[![🎥 Prototype Walkthrough](https://img.shields.io/badge/🎥_Prototype_Walkthrough-YouTube_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/Fyf3-KiufVw)
 [![📊 Presentation PPT](https://img.shields.io/badge/📊_Presentation_PPT-Pitch_Deck-D24726?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white)](https://drive.google.com/file/d/1B5uk_gHGnL9AhauX4m3sGhapFinYeZjr/view?usp=drive_link)
 [![📄 Report PDF](https://img.shields.io/badge/📄_Report_PDF-Technical_Dossier-0078D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://drive.google.com/file/d/1j_HOolP42qlp1VSGBdOxcd8Q6JdS6hKd/view?usp=drive_link)
 [![📁 Complete Project Drive](https://img.shields.io/badge/📁_Project_Drive-All_Documents-34A853?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw?usp=sharing)
@@ -35,8 +35,8 @@
 </div>
 
 > ### 🌟 **[CORE HIGHLIGHT] AI Idea Explanation Video**
-> 🎬 **[▶️ Click to Watch the AI Idea Explanation Video](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link)** *(Highest Priority Deliverable)*  
-> *A dedicated AI-generated concept animation explaining how Sanchara Vyuha ingests 10 real-time telemetry streams, applies Google OR-Tools MILP optimization to eliminate 14.8% deadhead empty mileage, and automates verifiable CPCB/CEA carbon accounting on AWS.*
+> 🎬 **[▶️ Click to Watch the AI Idea Explanation Video](https://youtu.be/WE_v0WWnrbw)** *(Highest Priority Deliverable)*  
+> *A dedicated concept animation explaining how Sanchara Vyuha ingests 10 real-time telemetry streams, applies Google OR-Tools MILP optimization to eliminate 14.8% deadhead empty mileage, and automates verifiable CPCB/CEA carbon accounting on AWS.*
 
 ---
 
@@ -79,8 +79,8 @@ The engine executes LightGBM quantile demand forecasting ($P10/P50/P90$), applie
 
 | Deliverable Resource | Format / Type | Description & Access Link |
 | :--- | :--- | :--- |
-| 🌟 **AI Idea Explanation Video (Core Highlight)** | AI Video Concept | [🎬 **Watch AI Idea Video**](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link) *(Must Watch)* |
-| 🎥 **Prototype Explanation & Demo** | YouTube Demonstration | [▶️ **Watch Prototype Walkthrough**](https://youtu.be/WE_v0WWnrbw?si=Vru7B1JqohN3RR_8) |
+| 🌟 **AI Idea Explanation Video (Core Highlight)** | AI Concept Video | [🎬 **Watch AI Idea Video**](https://youtu.be/WE_v0WWnrbw) *(Must Watch)* |
+| 🎥 **Prototype Explanation & Demo** | YouTube Demonstration | [▶️ **Watch Prototype Walkthrough**](https://youtu.be/Fyf3-KiufVw) |
 | 📊 **Presentation Deck (PPT)** | Official Pitch Deck | [📈 **View Presentation PPT**](https://drive.google.com/file/d/1B5uk_gHGnL9AhauX4m3sGhapFinYeZjr/view?usp=drive_link) |
 | 📄 **Project Report (PDF)** | Official Technical Report | [📑 **Read Report PDF**](https://drive.google.com/file/d/1j_HOolP42qlp1VSGBdOxcd8Q6JdS6hKd/view?usp=drive_link) |
 | 📁 **Complete Project Documents Folder** | Google Drive | [📂 **Access All Project Documents**](https://drive.google.com/drive/folders/1LMqwpvHnm5mxI-bbT1_n_KOBdZsP6mWw?usp=sharing) |
@@ -259,26 +259,52 @@ $$\Delta\text{CO}_2 = \text{CO}_{2,\text{baseline}} - \text{CO}_{2,\text{optimiz
 
 Full AWS setup instructions and IAM configurations are available in [`docs/AWS_DEPLOYMENT.md`](docs/AWS_DEPLOYMENT.md).
 
+```
+┌───────────────────────────────────────────────────────────────────────────────────────────┐
+│                          AWS CLOUD ARCHITECTURE & RESILIENCE MODEL                        │
+│                                                                                           │
+│   [ BMTC Telemetry + Sensors ]                                                            │
+│   [ LightGBM Quantile Demand ] ──► [ FastAPI Centralized Core ]                           │
+│   [ Google OR-Tools MILP     ]      • Sub-15ms Latency SLA                                │
+│   [ CPCB/CEA Carbon Engine   ]      • Policy Boundary Audit                               │
+│                                              │                                            │
+│                                              ├── boto3 ──► [ Amazon S3 Audit Bucket ]     │
+│                                              │             sanchara-vyuha-audit-archive   │
+│                                              │             (Tamper-proof JSON logs)       │
+│                                              │                                            │
+│                                              ├── boto3 ──► [ Amazon CloudWatch Metrics ]  │
+│                                              │             Namespace: SancharaVyuha/...   │
+│                                              │             (Emissions & Fuel KPI telemetry│
+│                                              │                                            │
+│                                              └── fallback► [ Zero-Crash Local Adapter ]   │
+│                                                            • Local filesystem JSON buffer │
+│                                                            • In-memory metric ring buffer │
+│                                                                                           │
+│                                 [ Tactical React 18 Console ]                             │
+│                                 • Green Mobility Hub & AWS Telemetry HUD                  │
+└───────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
 ```mermaid
 flowchart TD
-    subgraph Edge & Depot Telemetry
-        Sensors["BMTC Telemetry & Demand Signals"] --> Backend["FastAPI Backend (Sanchara Vyuha)"]
-        ORTools["OR-Tools Dispatch Solver"] --> Backend
-        CarbonEngine["Carbon Accounting Engine"] --> Backend
+    subgraph Core_Engine ["Depot Telemetry & AI Core"]
+        Sensors["10-Stream Telemetry Ingestion"] --> Backend["FastAPI AI-TOS Core"]
+        ORTools["Google OR-Tools MILP Solver"] --> Backend
+        CarbonEngine["CPCB & CEA Carbon Accounting Engine"] --> Backend
     end
 
-    subgraph AWS Cloud Integration [Region: ap-south-1]
-        Backend -->|"boto3.client('s3')"| S3["Amazon S3\nsanchara-vyuha-audit-archive-2026\n(Immutable Audit Reports & Decision Logs)"]
-        Backend -->|"boto3.client('cloudwatch')"| CW["Amazon CloudWatch\nNamespace: SancharaVyuha/PublicTransport\n(EmissionsAvoidedKg, FuelSavedLiters)"]
+    subgraph AWS_Cloud ["AWS Cloud Infrastructure (Region: ap-south-1)"]
+        Backend -->|"boto3 S3 Client"| S3["Amazon S3<br/>sanchara-vyuha-audit-archive-2026<br/>(Immutable Audit Reports & Logs)"]
+        Backend -->|"boto3 CloudWatch Client"| CW["Amazon CloudWatch<br/>Namespace: SancharaVyuha/PublicTransport<br/>(EmissionsAvoidedKg, FuelSavedLiters)"]
     end
 
-    subgraph Resilient Local Adapter (Zero-Crash Fallback)
-        Backend -.->|"Offline / No Creds"| LocalS3["Local S3 Storage Adapter\n(data/s3_archive/)"]
-        Backend -.->|"Offline / No Creds"| LocalCW["Local CloudWatch Telemetry Adapter"]
+    subgraph Local_Adapter ["Zero-Crash Resilient Local Fallback"]
+        Backend -.->|"Offline Mode / Missing Credentials"| LocalS3["Local Storage Adapter<br/>(data/s3_archive/)"]
+        Backend -.->|"Offline Mode / Missing Credentials"| LocalCW["Local Telemetry Buffer<br/>(In-Memory Ring Buffer)"]
     end
 
-    subgraph Client Applications
-        Backend <-->|"REST & WebSockets"| Frontend["React 18 + Vite Dashboard\n(Green Mobility & AWS Hub)"]
+    subgraph Tactical_Console ["User Command Applications"]
+        Backend <-->|"REST APIs & WebSockets"| Frontend["React 18 + Vite Command Console<br/>(Sustainability & AWS Hub)"]
     end
 ```
 
@@ -607,30 +633,29 @@ tests/test_system.py::test_end_to_end_pipeline PASSED                           
 
 ## 🖼️ 21. Visual Demonstration & System Screenshots
 
-### Executive Command Center
-![Executive Command Center](https://raw.githubusercontent.com/dhanusharer/sanchara-vyuha/main/docs/screenshots/exec_command_center.png)
+### 🖥️ Executive Command Center & Operations Dashboard
+<p align="center">
+  <img width="100%" alt="Executive Command Center" src="https://github.com/user-attachments/assets/b397b0e6-52f5-4503-950c-c0c26c8d92ff" />
+</p>
 
-### Real GIS OpenStreetMap Radar with Bus Stand Icons
-![GIS Radar Map](https://raw.githubusercontent.com/dhanusharer/sanchara-vyuha/main/docs/screenshots/gis_radar_map.png)
+### 🗺️ Real GIS OpenStreetMap Radar with Bus Stand Icons
+<p align="center">
+  <img width="100%" alt="Real GIS Radar Map" src="https://github.com/user-attachments/assets/b01a9204-aadc-408c-beda-42a6e4694549" />
+</p>
 
-### Network Demand Analytics & Recharts Quantile Curves
-![Network Analytics](https://raw.githubusercontent.com/dhanusharer/sanchara-vyuha/main/docs/screenshots/network_analytics.png)
+### 📊 Network Demand Analytics & Recharts Quantile Curves
+<p align="center">
+  <img width="100%" alt="Network Demand Analytics" src="https://github.com/user-attachments/assets/e997e1a6-414b-4382-bd96-3dae938e4900" />
+</p>
 
-### 🖥️ Tactical Platform & Operations Console Screenshots
+### ⚡ Disruption Simulation & Policy Governance Console
 <p align="center">
-  <img width="100%" alt="Tactical Operations Console 1" src="https://github.com/user-attachments/assets/b397b0e6-52f5-4503-950c-c0c26c8d92ff" />
+  <img width="100%" alt="Disruption Simulator" src="https://github.com/user-attachments/assets/7d67fb98-3e22-40ee-8ff1-db0cda7bb455" />
 </p>
+
+### 💰 Global Economic ROI & Sustainability Audit
 <p align="center">
-  <img width="100%" alt="Tactical Operations Console 2" src="https://github.com/user-attachments/assets/b01a9204-aadc-408c-beda-42a6e4694549" />
-</p>
-<p align="center">
-  <img width="100%" alt="Tactical Operations Console 3" src="https://github.com/user-attachments/assets/e997e1a6-414b-4382-bd96-3dae938e4900" />
-</p>
-<p align="center">
-  <img width="100%" alt="Tactical Operations Console 4" src="https://github.com/user-attachments/assets/7d67fb98-3e22-40ee-8ff1-db0cda7bb455" />
-</p>
-<p align="center">
-  <img width="100%" alt="Tactical Operations Console 5" src="https://github.com/user-attachments/assets/062215ef-a4ef-49cd-b36f-e26000661768" />
+  <img width="100%" alt="Economic ROI and Sustainability" src="https://github.com/user-attachments/assets/062215ef-a4ef-49cd-b36f-e26000661768" />
 </p>
 
 ### 📱 Commuter App & Mobile Passenger Experience
@@ -680,14 +705,13 @@ docker run -d -p 8000:8000 -p 5000:5000 --name sanchara-vyuha-app sanchara-vyuha
 ## 👥 25. Team & Academic Credits
 
 > 🏫 **Institution**: **AMC ENGINEERING COLLEGE**  
-> 🏷️ **Team Name**: **CORTEX**  
+> 🏷️ **Team Name**: **Trust Builders**  
 > 🏆 **Hackathon**: **WeMakeDevs × AWS Environmental Hacks 2026**
 
 | Member Name | Role & Core Responsibilities |
 | :--- | :--- |
 | **BHUVAN GOWDA H K** | Core Team Member — System Modeling, Data Processing, Sensor Fusion & Field Testing |
 | **DHANUSH A G** | Lead System Architect — Centralized AI Engine, LightGBM Quantile Forecasts, OR-Tools MILP Solver, AWS Cloud Architecture & FastAPI Core |
-| **DURGA PRASAD H D** | Core Team Member — Tactical UI/UX Console, Leaflet GIS Integration, Frontend Engineering & Carbon Visualizations |
 
 ---
 
@@ -697,7 +721,7 @@ If you use Sanchara Vyuha in your research or hackathon reference projects, plea
 
 ```bibtex
 @software{sanchara_vyuha_2026,
-  author = {Dhanush, A. G. and Team Cortex},
+  author = {Dhanush, A. G. and Team Trust Builders},
   title = {Sanchara Vyuha: Enterprise AI-Powered Smart Bus Depot Intelligence & Carbon Accounting Platform},
   year = {2026},
   url = {https://github.com/dhanusharer/sancharavyuha},

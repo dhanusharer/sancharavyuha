@@ -1,6 +1,6 @@
 # 📋 WeMakeDevs × AWS Environmental Hacks 2026 — Submission Checklist
 
-**Team**: CORTEX  
+**Team**: Trust Builders  
 **Institution**: AMC Engineering College  
 **Selected Track**: **Track 03 — Waste and Energy**  
 **Subtrack**: **Public Transport & Green Transit Operations**  
@@ -11,10 +11,10 @@
 ## 1. Official Deliverables & Media Links Verification
 
 - [x] **🌟 AI Concept & Idea Explanation Video (Core Highlight)**:
-  - Link: [Google Drive AI Video](https://drive.google.com/file/d/1_H2NuY1jp4Dyspjwj6Dqp2g0ZjQz7QCC/view?usp=drive_link)
+  - Link: [YouTube AI Video](https://youtu.be/WE_v0WWnrbw)
   - Content: Visual AI explanation of Sanchara Vyuha multi-stream telemetry, dynamic short-turning, and carbon accounting.
 - [x] **🎥 Prototype Explanation Video**:
-  - Link: [YouTube Demo Walkthrough](https://youtu.be/WE_v0WWnrbw?si=Vru7B1JqohN3RR_8)
+  - Link: [YouTube Prototype Walkthrough](https://youtu.be/Fyf3-KiufVw)
   - Content: End-to-end platform demonstration showing live bus tracking, YOLO passenger counting, holding bay allocation, and sustainability dashboard.
 - [x] **📊 Presentation Deck (PPT)**:
   - Link: [Google Drive PPT Pitch Deck](https://drive.google.com/file/d/1B5uk_gHGnL9AhauX4m3sGhapFinYeZjr/view?usp=drive_link)
@@ -51,8 +51,7 @@
 ## 3. Team Information
 
 - **Institution**: AMC Engineering College, Bengaluru
-- **Team Name**: **CORTEX**
+- **Team Name**: **Trust Builders**
 - **Members**:
   1. **Bhuvan Gowda H K** — System Modeling, Sensor Fusion, Data Processing & Field Testing
   2. **Dhanush A G** — Lead System Architect, Centralized AI Engine, MILP Solver, AWS Cloud Architecture & Backend
-  3. **Durga Prasad H D** — Tactical UI/UX Console, Leaflet GIS Integration, Frontend Engineering & Visualizations
