@@ -38,6 +38,13 @@
 > 🎬 **[▶️ Click to Watch the AI Idea Explanation Video](https://youtu.be/WE_v0WWnrbw)** *(Highest Priority Deliverable)*  
 > *A dedicated concept animation explaining how Sanchara Vyuha ingests 10 real-time telemetry streams, applies Google OR-Tools MILP optimization to eliminate 14.8% deadhead empty mileage, and automates verifiable CPCB/CEA carbon accounting on AWS.*
 
+<div align="center">
+  <br/>
+  <img src="https://github.com/user-attachments/assets/8b44c4f2-9aac-469c-87c8-b22021faf5f8" width="95%" alt="Real-Time CCTV Edge Vision Analytics & YOLO Passenger Footfall Detection" />
+  <p><em>🎥 <b>Real-Time CCTV Edge Vision Analytics</b> — Live passenger crowd detection, queue surge estimation, and bus stop footfall telemetry fused with smart card ETM scans for dynamic demand dispatch.</em></p>
+  <br/>
+</div>
+
 ---
 
 ## 📌 1. Project Overview
