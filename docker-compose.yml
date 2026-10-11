@@ -1,0 +1,30 @@
+# Sanchara Vyuha AI-TOS v6.0 Docker Compose Configuration
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sanchara_vyuha_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=Sanchara Vyuha
+      - DATABASE_URL=sqlite:///./sanchara_vyuha.db
+      - YOLO_MODEL=yolov8s.pt
+    volumes:
+      - .:/app
+    restart: always
+
+  frontend:
+    image: node:20-alpine
+    container_name: sanchara_vyuha_frontend
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    depends_on:
+      - backend

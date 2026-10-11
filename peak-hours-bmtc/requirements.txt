@@ -1,0 +1,6 @@
+# Sanchara Vyuha AI-TOS v6.0 Peak Hours Requirements
+tensorflow
+pandas
+numpy
+scikit-learn
+matplotlib

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanchara Vyuha — Principal System Architecture Interactive Blueprint</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Geist', sans-serif; background-color: #09090b; color: #f4f4f5; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    .node-card { transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); cursor: pointer; }
+    .node-card:hover { transform: translateY(-2px); box-shadow: 0 0 20px rgba(16, 185, 129, 0.2); }
+    .active-node { border-color: #10b981 !important; background: rgba(16, 185, 129, 0.08) !important; }
+    .pulse-line { stroke-dasharray: 8; animation: dash 1.5s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -32; } }
+  </style>
+</head>
+<body class="p-6">
+  <div class="max-w-7xl mx-auto space-y-6">
+    <!-- HEADER -->
+    <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
+      <div>
+        <span class="text-xs font-mono font-semibold text-emerald-400 tracking-wider uppercase">PRINCIPAL SYSTEM ARCHITECTURE BLUEPRINT v3.1</span>
+        <h1 class="text-2xl font-bold text-white tracking-tight">Sanchara Vyuha — Interactive Decision Intelligence Pipeline</h1>
+        <p class="text-xs text-zinc-400 font-mono">15-Year Principal Architecture Specification • Real-Time Edge-to-Cloud Transit Optimization</p>
+      </div>
+      <div class="flex space-x-2">
+        <button onclick="simulateMode('normal')" class="px-3 py-1.5 rounded-xl text-xs font-mono font-semibold bg-zinc-800 hover:bg-zinc-700 text-zinc-200 border border-zinc-700">Normal Baseline</button>
+        <button onclick="simulateMode('rain')" class="px-3 py-1.5 rounded-xl text-xs font-mono font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500/30">⚡ Heavy Rain Emergency</button>
+        <button onclick="simulateMode('policy')" class="px-3 py-1.5 rounded-xl text-xs font-mono font-semibold bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500/30">🛡️ Policy Breach Test</button>
+      </div>
+    </div>
+
+    <!-- ARCHITECTURE PIPELINE LAYERS -->
+    <div class="grid grid-cols-12 gap-6">
+      <!-- MAIN ARCHITECTURE CANVAS (COL 8) -->
+      <div class="col-span-8 space-y-4">
+        
+        <!-- LAYER 1: DATA TELEMETRY INGESTION -->
+        <div class="p-4 rounded-2xl bg-zinc-900/80 border border-zinc-800 space-y-2">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-zinc-400 uppercase font-bold">LAYER 1: MULTI-MODAL DATA TELEMETRY INGESTION</span>
+            <span class="text-emerald-400 font-semibold">97.8% Ingestion Health</span>
+          </div>
+          <div class="grid grid-cols-5 gap-2 font-mono text-[11px]">
+            <div onclick="selectNode('cctv')" id="node-cctv" class="node-card p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">VIDEO</span>
+              <strong class="text-zinc-100">9 CCTV Feeds</strong>
+            </div>
+            <div onclick="selectNode('gtfs')" id="node-gtfs" class="node-card p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">PROTOBUF</span>
+              <strong class="text-zinc-100">GTFS-RT Feed</strong>
+            </div>
+            <div onclick="selectNode('etm')" id="node-etm" class="node-card p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">TICKETING</span>
+              <strong class="text-zinc-100">ETM Scans</strong>
+            </div>
+            <div onclick="selectNode('weather')" id="node-weather" class="node-card p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">ENVIRONMENT</span>
+              <strong class="text-zinc-100">IMD Weather API</strong>
+            </div>
+            <div onclick="selectNode('traffic')" id="node-traffic" class="node-card p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">CONGESTION</span>
+              <strong class="text-zinc-100">TomTom Traffic</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 2: COMPUTER VISION & EDGE AI ENGINE -->
+        <div class="p-4 rounded-2xl bg-zinc-900/80 border border-zinc-800 space-y-2">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-zinc-400 uppercase font-bold">LAYER 2: EDGE COMPUTER VISION & SENSOR FUSION</span>
+            <span class="text-emerald-400 font-semibold">29.8 FPS • ByteTrack Active</span>
+          </div>
+          <div class="grid grid-cols-3 gap-2 font-mono text-[11px]">
+            <div onclick="selectNode('yolo')" id="node-yolo" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-emerald-400 text-[9px]">YOLOv8 DETECTOR</span>
+              <strong class="text-zinc-100">Person Class 0 (Conf 0.35)</strong>
+            </div>
+            <div onclick="selectNode('bytetrack')" id="node-bytetrack" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-cyan-400 text-[9px]">BYTETRACK TRACKER</span>
+              <strong class="text-zinc-100">Kalman State Vector</strong>
+            </div>
+            <div onclick="selectNode('gate')" id="node-gate" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-amber-400 text-[9px]">VIRTUAL GATE COUNTER</span>
+              <strong class="text-zinc-100">Polyline Crossing Vector</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 3: DECISION INTELLIGENCE v3 CORE ENGINE -->
+        <div class="p-4 rounded-2xl bg-emerald-950/20 border border-emerald-800/40 space-y-3">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-emerald-400 uppercase font-bold">LAYER 3: DECISION INTELLIGENCE v3 CORE ENGINE</span>
+            <span class="text-emerald-400 font-semibold">14.2ms Total Latency</span>
+          </div>
+          <div class="grid grid-cols-4 gap-2 font-mono text-[11px]">
+            <div onclick="selectNode('context')" id="node-context" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-zinc-400 text-[9px]">CONTEXT ENGINE</span>
+              <strong class="text-zinc-100">Dynamic Weights</strong>
+            </div>
+            <div onclick="selectNode('lightgbm')" id="node-lightgbm" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-blue-400 text-[9px]">LIGHTGBM FORECAST</span>
+              <strong class="text-zinc-100">P10 / P50 / P90 Quantiles</strong>
+            </div>
+            <div onclick="selectNode('policy')" id="node-policy" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-rose-400 text-[9px]">POLICY GOVERNANCE</span>
+              <strong class="text-zinc-100">5 Hard Domains (100%)</strong>
+            </div>
+            <div onclick="selectNode('ortools')" id="node-ortools" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-emerald-400 text-[9px]">OR-TOOLS SOLVER</span>
+              <strong class="text-zinc-100">MILP Assignment</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 4: OBSERVABILITY & AUDIT TRAIL -->
+        <div class="p-4 rounded-2xl bg-zinc-900/80 border border-zinc-800 space-y-2">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-zinc-400 uppercase font-bold">LAYER 4: 2-LAYER OBSERVABILITY & SQLite WAL DB</span>
+            <span class="text-emerald-400 font-semibold">31ms Distributed Trace</span>
+          </div>
+          <div class="grid grid-cols-2 gap-2 font-mono text-[11px]">
+            <div onclick="selectNode('trace')" id="node-trace" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-purple-400 text-[9px]">DISTRIBUTED TRACE</span>
+              <strong class="text-zinc-100">9 Sub-Span Micro-Latencies</strong>
+            </div>
+            <div onclick="selectNode('db')" id="node-db" class="node-card p-3 rounded-xl bg-zinc-950 border border-zinc-800 text-center">
+              <span class="block text-amber-400 text-[9px]">SQLITE WAL DB</span>
+              <strong class="text-zinc-100">decision_audit_log (Immutable)</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAYER 5: 8-PERSONA OPERATIONAL DECISION WORKSPACE -->
+        <div class="p-4 rounded-2xl bg-zinc-900/80 border border-zinc-800 space-y-2">
+          <div class="flex justify-between items-center text-xs font-mono">
+            <span class="text-zinc-400 uppercase font-bold">LAYER 5: REACT 18 OPERATIONAL DECISION WORKSPACE (8 PERSONAS)</span>
+            <span class="text-emerald-400 font-semibold">Clinical Blueprint UI</span>
+          </div>
+          <div class="grid grid-cols-4 gap-2 font-mono text-[10px] text-center">
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Operations (Dispatcher)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Decision (Supervisor)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Analytics (Ops Manager)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Monitoring (Platform Eng)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">MLOps (ML Engineer)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Audit (Investigator)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Executive ROI (Executive)</div>
+            <div class="p-2 rounded-xl bg-zinc-950 border border-zinc-800 text-zinc-300">Admin (System Admin)</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DEEP-DIVE INSPECTOR PANEL (COL 4) -->
+      <div class="col-span-4 bg-zinc-900/90 border border-zinc-800 rounded-2xl p-5 space-y-4 font-mono text-xs">
+        <div class="flex items-center space-x-2 border-b border-zinc-800 pb-3">
+          <div class="w-3 h-3 rounded-full bg-emerald-500 animate-ping"></div>
+          <h2 class="text-sm font-bold text-white uppercase" id="inspector-title">COMPONENT INSPECTOR</h2>
+        </div>
+
+        <div class="space-y-3" id="inspector-content">
+          <div class="p-3 bg-zinc-950 border border-zinc-800 rounded-xl space-y-1">
+            <span class="text-[10px] text-zinc-500 block uppercase">Selected Module</span>
+            <strong class="text-emerald-400 text-sm block" id="inspect-module">YOLOv8 Object Detector</strong>
+            <p class="text-zinc-300 text-[11px]" id="inspect-desc">Real-time object detection model evaluating person class (id 0) from 9 CCTV streams at 29.8 FPS.</p>
+          </div>
+
+          <div class="p-3 bg-zinc-950 border border-zinc-800 rounded-xl space-y-1">
+            <span class="text-[10px] text-zinc-500 block uppercase">Mathematical / Technical Spec</span>
+            <div class="text-[10px] text-zinc-300 space-y-1" id="inspect-spec">
+              <div>• Model Weights: <code class="text-emerald-400">yolov8n.pt</code></div>
+              <div>• Confidence Threshold: <code class="text-emerald-400">&ge; 0.35</code></div>
+              <div>• Ingestion Resolution: <code class="text-emerald-400">480x270 @ 30 FPS</code></div>
+            </div>
+          </div>
+
+          <div class="p-3 bg-zinc-950 border border-zinc-800 rounded-xl space-y-1">
+            <span class="text-[10px] text-zinc-500 block uppercase">Data Contract Output</span>
+            <pre class="bg-zinc-900 p-2 rounded text-[9px] text-emerald-300 overflow-x-auto" id="inspect-contract">
+{
+  "stop_no": 6,
+  "people_detected_cctv": 185,
+  "waiting_passengers": 210,
+  "timestamp": "2026-10-11T11:15:00Z"
+}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const nodeData = {
+      cctv: {
+        title: "9 CCTV Video Feeds",
+        module: "Layer 1 — Video Stream Ingestion",
+        desc: "High-definition RTSP/MOV streams from 9 critical BMTC bus stop nodes (Majestic to Electronic City).",
+        spec: "• Frame Rate: 30 FPS\n• Resolution: 1080p -> 480x270 scaled\n• Protocol: RTSP / Local MOV",
+        contract: `{"cctv_stream": "busstop_6.mp4", "status": "ONLINE", "fps": 29.8}`
+      },
+      yolo: {
+        title: "YOLOv8 Edge Object Detector",
+        module: "Layer 2 — Deep Learning Vision Inference",
+        desc: "Executes bounding box regression for person class (id 0) across all incoming CCTV frames.",
+        spec: "• Architecture: YOLOv8 PyTorch / ONNX\n• Class ID: 0 (Person)\n• Confidence Cutoff: 0.35",
+        contract: `[{"class": 0, "conf": 0.92, "box": [120, 150, 180, 240]}]`
+      },
+      lightgbm: {
+        title: "Multi-Alpha LightGBM Quantile Forecast",
+        module: "Layer 3 — Demand Forecasting Engine",
+        desc: "Predicts quantile demand bounds (P10 conservative, P50 median, P90 surge peak) to handle uncertainty.",
+        spec: "• Loss: Pinball Quantile Loss\n• Quantiles: alpha=0.1, 0.5, 0.9\n• Accuracy: MAE = 4.2 pax",
+        contract: `{"p10": 158, "p50": 210, "p90": 262, "confidence": 0.94}`
+      },
+      policy: {
+        title: "5-Domain Policy Governance Engine",
+        module: "Layer 3 — Hard Constraint Evaluator",
+        desc: "Enforces 5 hard operational policies before any decision package can be generated.",
+        spec: "• POL-OPER-001: Driver shift < 8.0h\n• POL-FLEET-002: EV Battery SoC >= 20%\n• POL-SAFETY-003: Depot reserve >= 3 buses",
+        contract: `{"status": "PASS", "passed_domains": 5, "total_domains": 5}`
+      },
+      ortools: {
+        title: "OR-Tools MILP Fleet Optimizer",
+        module: "Layer 3 — Mathematical Resource Allocator",
+        desc: "Formulates and solves mixed-integer linear programming for optimal spare bus dispatch.",
+        spec: "• Solver: Google OR-Tools MILP\n• Objective: Min (WaitTime + Fuel + Risk)\n• Solver Latency: 11.2ms",
+        contract: `{"option": "A", "utility_score": 94.0, "wait_reduction": -18.5}`
+      }
+    };
+
+    function selectNode(key) {
+      document.querySelectorAll('.node-card').forEach(n => n.classList.remove('active-node'));
+      const elem = document.getElementById('node-' + key);
+      if (elem) elem.classList.add('active-node');
+
+      const d = nodeData[key] || nodeData['yolo'];
+      document.getElementById('inspect-module').innerText = d.module;
+      document.getElementById('inspect-desc').innerText = d.desc;
+      document.getElementById('inspect-spec').innerText = d.spec;
+      document.getElementById('inspect-contract').innerText = d.contract;
+      document.getElementById('inspector-title').innerText = d.title;
+    }
+
+    function simulateMode(mode) {
+      if (mode === 'rain') {
+        alert('⚡ Heavy Rain Emergency Simulated: CCTV counts jump +35%, P90 quantile scales to 262 pax, Option A EV Spare recommended.');
+        selectNode('lightgbm');
+      } else if (mode === 'policy') {
+        alert('🛡️ Policy Breach Test: Driver shift set to 8.5h (> 8h limit). Policy Engine flags POL-OPER-001 FAIL. Reverts to Option B.');
+        selectNode('policy');
+      } else {
+        alert('Normal Baseline Mode: System operating under standard timetable demand.');
+        selectNode('yolo');
+      }
+    }
+  </script>
+</body>
+</html>

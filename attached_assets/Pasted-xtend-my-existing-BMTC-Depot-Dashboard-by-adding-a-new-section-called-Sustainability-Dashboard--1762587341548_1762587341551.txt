@@ -1,0 +1,83 @@
+[SANCHARA VYUHA AI-TOS v6.0 ASSET]
+xtend my existing BMTC Depot Dashboard by adding a new section called “🌱 Sustainability Dashboard” below the current main metrics section.
+
+The design theme should perfectly match the existing style — use the same yellow–white gradient background, rounded cards, and minimalistic modern look.
+
+✨ Section Title:
+
+Sustainability Dashboard – Green Intelligence Stats
+
+📊 Add These Four Main Metric Cards:
+
+Carbon Emission Saved (kg CO₂)
+
+Icon: 🌿
+
+Shows: “Estimated CO₂ saved through optimized bus routes.”
+
+Animated number counter (e.g., 1,245 kg).
+
+Add a small green progress bar below it.
+
+Fuel Efficiency (L/100km)
+
+Icon: ⛽
+
+Shows comparison between baseline and optimized values (e.g., “Saved 215 L this week”).
+
+Add a small fuel gauge bar.
+
+Eco Score (0–100)
+
+Icon: 💚
+
+Circular progress meter showing environmental performance.
+
+Color-coded: 0–50 red, 51–80 yellow, 81–100 green.
+
+EV Readiness (%)
+
+Icon: ⚡
+
+Progress bar showing how many routes are suitable for electric buses (mock data).
+
+📈 Add Visualization Section Below Cards:
+
+Left: Line Chart – Emission Reduction Trend (Last 7 Days)
+(label X-axis: days, Y-axis: kg CO₂ saved)
+
+Right: Bar Chart – Fuel Optimization by Depot
+(each bar = depot, value = litres saved)
+
+🧠 Add “AI Insights” Panel (to the right side or bottom):
+
+Display 3–4 AI-generated sustainability tips in card format:
+
+Example 1: “Shift 2 diesel buses on Route 365J to EV — 1.3 kg CO₂/day saved.”
+
+Example 2: “Reduce 1 off-peak bus at Maharani College stop.”
+
+Example 3: “Depot 3 reached Eco Score: 92 — Efficiency Level A.”
+
+Use a small AI icon 🤖 and show these in animated card transitions.
+
+🎨 Style Guidelines:
+
+Keep UI consistent with the current dashboard.
+
+Use green accents (#4CAF50 / #A8E063) to symbolize eco-friendliness.
+
+Maintain soft shadows, rounded corners, and clean typography.
+
+The entire section should fit naturally under the main dashboard metrics.
+
+⚙️ Functionality (for demo/mock data):
+
+Generate mock sustainability data dynamically (random or fixed).
+
+Include realistic values for each metric.
+
+Charts should update visually when data changes (mock updates every 5–10s).
+
+This new Sustainability Dashboard section should make the project match the theme “AI for a Sustainable Planet — Code That Saves Carbon.”
+The result should look professional, AI-driven, and data-rich — suitable for innovation or hackathon presentation.
