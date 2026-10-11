@@ -210,6 +210,14 @@ The engine executes LightGBM quantile demand forecasting ($P10/P50/P90$), applie
                     +-------------------------------------------------------+
 ```
 
+### 🏛️ Principal System Architecture Blueprints
+
+![Sanchara Vyuha Master Enterprise Architecture Diagram](docs/sanchara_vyuha_principal_architecture.png)
+
+![Sanchara Vyuha Complete Architecture Diagram](docs/sanchara_vyuha_complete_architecture.png)
+
+> 💡 **Interactive Architecture Explorer**: Open [`docs/architecture_interactive.html`](docs/architecture_interactive.html) in your browser for a live interactive component inspector and scenario simulator!
+
 ---
 
 ## 🌿 7. Environmental Sustainability & Carbon Accounting Engine
@@ -532,6 +540,9 @@ CLOUDWATCH_NAMESPACE=SancharaVyuha/PublicTransport
 - **Input**: Bus stop video feeds.
 - **Fallback**: Automatically falls back to ETM smart card tap-in logs when lens blur is detected.
 
+#### 📹 CCTV Vision & Footfall Detection Dataset
+![CCTV Dataset & YOLO Footfall Detection](https://github.com/user-attachments/assets/8b44c4f2-9aac-469c-87c8-b22021faf5f8)
+
 ### Explainable AI (SHAP Module)
 - **Library**: TreeSHAP fast explicit calculation.
 - **Output**: Real-time feature attribution matrix detailing exact numeric passenger surge contributions.
@@ -588,7 +599,7 @@ tests/test_system.py::test_end_to_end_pipeline PASSED                           
 
 ---
 
-## 🖼️ 21. Console Screenshots
+## 🖼️ 21. Visual Demonstration & System Screenshots
 
 ### Executive Command Center
 ![Executive Command Center](https://raw.githubusercontent.com/dhanusharer/sanchara-vyuha/main/docs/screenshots/exec_command_center.png)
@@ -598,6 +609,32 @@ tests/test_system.py::test_end_to_end_pipeline PASSED                           
 
 ### Network Demand Analytics & Recharts Quantile Curves
 ![Network Analytics](https://raw.githubusercontent.com/dhanusharer/sanchara-vyuha/main/docs/screenshots/network_analytics.png)
+
+### 🖥️ Tactical Platform & Operations Console Screenshots
+<p align="center">
+  <img width="100%" alt="Tactical Operations Console 1" src="https://github.com/user-attachments/assets/b397b0e6-52f5-4503-950c-c0c26c8d92ff" />
+</p>
+<p align="center">
+  <img width="100%" alt="Tactical Operations Console 2" src="https://github.com/user-attachments/assets/b01a9204-aadc-408c-beda-42a6e4694549" />
+</p>
+<p align="center">
+  <img width="100%" alt="Tactical Operations Console 3" src="https://github.com/user-attachments/assets/e997e1a6-414b-4382-bd96-3dae938e4900" />
+</p>
+<p align="center">
+  <img width="100%" alt="Tactical Operations Console 4" src="https://github.com/user-attachments/assets/7d67fb98-3e22-40ee-8ff1-db0cda7bb455" />
+</p>
+<p align="center">
+  <img width="100%" alt="Tactical Operations Console 5" src="https://github.com/user-attachments/assets/062215ef-a4ef-49cd-b36f-e26000661768" />
+</p>
+
+### 📱 Commuter App & Mobile Passenger Experience
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f05f757b-fc0c-4556-92f7-9d83ffc6f71d" width="19%" alt="Commuter App 1" />
+  <img src="https://github.com/user-attachments/assets/d49ad600-9b65-460d-9b05-30e3faf059b0" width="19%" alt="Commuter App 2" />
+  <img src="https://github.com/user-attachments/assets/6f610830-9cae-4237-b994-5ce44c8c7091" width="19%" alt="Commuter App 3" />
+  <img src="https://github.com/user-attachments/assets/a23f9c43-1673-45ba-b438-fc911b41bf8e" width="19%" alt="Commuter App 4" />
+  <img src="https://github.com/user-attachments/assets/a71f8699-7afd-4968-afb3-d89029219606" width="19%" alt="Commuter App 5" />
+</div>
 
 ---
 
